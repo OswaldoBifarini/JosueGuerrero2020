@@ -41,7 +41,12 @@ public class JosueGuerrero2020 {
             
             switch (opcion);
                     case 1://1. . Calcular el total de puntuaciones de la semana
-                        for(int )
+                        double suma=0;
+                        for(double nota:puntuacionesDiarias){suma+=nota}
+                        System.out.println("El Total de puntuaciones de la semana es:"+nota);
+                        break;
+                    case 2://2. Calcular el promedio de puntuaciones y mostrar los dias por encima y por debajo del promedio"
+                        
         }while(opcion !=4);
         
     }
